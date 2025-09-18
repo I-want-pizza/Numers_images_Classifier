@@ -50,16 +50,16 @@ def main():
 
     # Предсказание
     predictor = Predictor(model, device)
-    predictor.predict_on_image("D:/Geek/Numbers_Images_Classifier/test_data/digit_0_1.png", invert=False)
-    predictor.predict_on_image("D:/Geek/Numbers_Images_Classifier/test_data/digit_1_1.png", invert=False)
-    predictor.predict_on_image("D:/Geek/Numbers_Images_Classifier/test_data/digit_2_1.png", invert=False)
-    predictor.predict_on_image("D:/Geek/Numbers_Images_Classifier/test_data/digit_3_1.png", invert=False)
-    predictor.predict_on_image("D:/Geek/Numbers_Images_Classifier/test_data/digit_4_1.png", invert=False)
-    predictor.predict_on_image("D:/Geek/Numbers_Images_Classifier/test_data/digit_5_1.png", invert=False)
-    predictor.predict_on_image("D:/Geek/Numbers_Images_Classifier/test_data/digit_6_1.png", invert=False)
-    predictor.predict_on_image("D:/Geek/Numbers_Images_Classifier/test_data/digit_7_1.png", invert=False)
-    predictor.predict_on_image("D:/Geek/Numbers_Images_Classifier/test_data/digit_8_1.png", invert=False)
-    predictor.predict_on_image("D:/Geek/Numbers_Images_Classifier/test_data/digit_9 _1.png", invert=False)
+    predictor.predict_on_image("test_data/digit_0_1.png", invert=False)
+    predictor.predict_on_image("test_data/digit_1_1.png", invert=False)
+    predictor.predict_on_image("test_data/digit_2_1.png", invert=False)
+    predictor.predict_on_image("test_data/digit_3_1.png", invert=False)
+    predictor.predict_on_image("test_data/digit_4_1.png", invert=False)
+    predictor.predict_on_image("test_data/digit_5_1.png", invert=False)
+    predictor.predict_on_image("test_data/digit_6_1.png", invert=False)
+    predictor.predict_on_image("test_data/digit_7_1.png", invert=False)
+    predictor.predict_on_image("test_data/digit_8_1.png", invert=False)
+    predictor.predict_on_image("test_data/digit_9_1.png", invert=False)
 
 
 if __name__ == "__main__":
